@@ -1,0 +1,27 @@
+{
+  "action": {
+     "default_title": "ENLARGE!!!"
+  },
+  "background": {
+     "service_worker": "background.js"
+  },
+  "commands": {
+     "magnify": {
+        "description": "Magnifying Glass",
+        "suggested_key": {
+           "default": "Alt+Shift+Z"
+        }
+     }
+  },
+  "description": "Press on the toolbar button to see the magnifying glass on the current page.",
+  "manifest_version": 3,
+  "name": "ENLARGE!!!!",
+  "offline_enabled": true,
+  "options_ui": {
+     "open_in_tab": true,
+     "page": "options.html"
+  },
+  "permissions": [ "storage", "activeTab", "scripting" ],
+  "short_name": "enlarge",
+  "version": "0.1.4"
+}
